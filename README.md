@@ -1,5 +1,3 @@
 # NodeJS - Typescript - Serverless - PostgreSQL
 
-| Statements                                    | Branches                                  | Functions                                   | Lines                               | Build Status                                    |
-| --------------------------------------------- | ----------------------------------------- | ------------------------------------------- | ----------------------------------- | ----------------------------------------------- |
-| ![Statements](#statements# 'Make me better!') | ![Branches](#branches# 'Make me better!') | ![Functions](#functions# 'Make me better!') | ![Lines](#lines# 'Make me better!') | ![BuildStatus](#buildstatus# 'Building Status') |
+[![Coverage Status](https://coveralls.io/repos/github/tienthanght96/node-typescript-serverless/badge.svg?branch=master)](https://coveralls.io/github/tienthanght96/node-typescript-serverless?branch=master)

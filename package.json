@@ -10,12 +10,7 @@
     "start": "serverless offline start",
     "pretest": "npm run clean",
     "test": "jest --env=node --colors --coverage test",
-    "coverage": "nyc --reporter=html --reporter=text npm run test"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn run test"
-    }
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "class-validator": "^0.11.0",
@@ -30,6 +25,7 @@
     "@types/node": "^12.12.14",
     "@types/pg": "^7.11.2",
     "@types/reflect-metadata": "^0.1.0",
+    "coveralls": "^3.0.9",
     "fork-ts-checker-webpack-plugin": "^3.0.1",
     "husky": "^3.1.0",
     "jest": "^24.9.0",
