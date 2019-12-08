@@ -13,3 +13,6 @@ jspm_packages
 
 # lock files
 yarn.lock
+
+# coverage test
+coverage

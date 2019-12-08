@@ -21,7 +21,6 @@ export class UserService {
       await databaseService.closeConnect();
       return user;
     } catch (error) {
-      console.log('error', error);
       throw error;
     }
   }

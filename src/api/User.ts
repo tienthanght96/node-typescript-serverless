@@ -61,7 +61,7 @@ export const createUser = async (
   } catch (error) {
     return new ResponseError({
       statusCode: 400,
-      body: { body: { message: error.message } },
+      body: { message: error.message },
     });
   }
 };
